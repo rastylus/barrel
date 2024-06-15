@@ -1,15 +1,19 @@
 import React, {useState} from "react";
 import { Link } from "react-router-dom";
+import NavBar from "./NavBar";
 
 function Home() {
 
 
-return(
-    <>
-    <h1>Barrel</h1>
-    <p>test home</p>
-    <Link to="/gallery">gallery</Link>
-    </>
+return (
+  <>
+    <NavBar />
+
+    <h3>home</h3>
+    {/* <Link to="/gallery">gallery</Link>
+    <br />
+    <Link to="/member">member</Link> */}
+  </>
 );
 
 }
