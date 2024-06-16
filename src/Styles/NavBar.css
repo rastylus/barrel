@@ -1,10 +1,16 @@
 .navbar {
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     align-items: center;
     background-color: #333;
     color: #fff;
     padding: 1rem;
+    width: 100%;
+    background-color: #333;
+    overflow: hidden;
+    position: fixed; /* Sticks the navbar to the top */
+    top: 0; /* Aligns the navbar to the top */
+    z-index: 1000; /* Keeps the navbar on top of other content */
   }
   
   .navbar-left .logo {

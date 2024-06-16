@@ -8,7 +8,6 @@ function Home() {
 return (
   <>
     <NavBar />
-
     <h3>home</h3>
     {/* <Link to="/gallery">gallery</Link>
     <br />

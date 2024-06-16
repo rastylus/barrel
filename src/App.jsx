@@ -4,6 +4,7 @@ import { BrowserRouter, Routes, Route, Link } from 'react-router-dom'
 import Home from './Pages/Home'
 import Gallery from './Pages/Gallery'
 import Member from './Pages/Member'
+import NavBar from './Pages/NavBar'
 
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
 
   return (
     <>
+    {/* <NavBar /> */}
       <BrowserRouter>
         <Routes>
           <Route index element={<Home />} />
