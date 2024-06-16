@@ -15,20 +15,15 @@ return (
         <li>
           <Link to="/gallery">gallery</Link>
         </li>
-        <li>
-          <Link to="/member">member</Link>
-        </li>
       </ul>
     </div>
-    {/* <div className="navbar-right">
-    <a href="/cart" className="cart-icon">
+    <div className="navbar-right">
+    {/* <a href="/cart" className="cart-icon">
       <i className="fas fa-shopping-cart"></i>
       <span className="cart-count">0</span>
-    </a>
-    <a href="/account" className="user-icon">
-      <i className="fas fa-user"></i>
-    </a>
-  </div> */}
+    </a> */}
+<Link to='/member'>Member Account</Link>
+  </div>
   </nav>
 );
 };
